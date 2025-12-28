@@ -1,1 +1,63 @@
+/* 전체 기본 설정 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+/* 제목 */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* 섹션 카드 */
+section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* 소제목 */
+h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+/* 입력창 */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* 버튼 기본 */
+button {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #4f46e5;
+  color: white;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+/* 버튼 호버 */
+button:hover {
+  background-color: #4338ca;
+}
+
+/* 하단 메인 버튼 */
+body > button {
+  width: 100%;
+  font-size: 16px;
+  padding: 14px;
+  margin-top: 20px;
+}
 
